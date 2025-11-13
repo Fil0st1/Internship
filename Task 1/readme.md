@@ -1,39 +1,53 @@
-# Simple Calculator
+# 🧮 Simple Calculator
 
-A minimal command-line calculator implemented in Python.
+A **minimal command-line calculator** built with Python.  
+Perform basic arithmetic operations interactively — clean, simple, and beginner-friendly.
 
-## Features
-- Addition, subtraction, multiplication, and division
-- Input validation with a safe divide-by-zero message
-- Interactive menu with an exit option
+![Python](https://img.shields.io/badge/Python-3.6%2B-blue?logo=python)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Stable-success)
 
-## Files
-- [`Task 1/calculator.py`](Task%201/calculator.py) — main program implementing the calculator
+---
 
-## Key Symbols
-- `calculator.add`
-- `calculator.subtract`
-- `calculator.multiply`
-- `calculator.divide`
-- `calculator.operations`
+## ✨ Features
+- ➕ **Addition**
+- ➖ **Subtraction**
+- ✖️ **Multiplication**
+- ➗ **Division**
+- 🧠 **Input validation** and safe divide-by-zero handling
+- 💬 **Interactive menu** with a clean exit option
 
-## Requirements
-- Python 3.6 or higher
+---
 
-## Running
-1. Open a terminal in the project directory (the folder that contains `Task 1`).
-2. Run:
+## 📁 Project Structure
+```plaintext
+Task 1/
+└── calculator.py
+```
+
+### Key Components
+| Symbol | Description |
+|:--|:--|
+| `calculator.add` | Performs addition |
+| `calculator.subtract` | Performs subtraction |
+| `calculator.multiply` | Performs multiplication |
+| `calculator.divide` | Performs division |
+| `calculator.operations` | Dictionary mapping menu choices to functions |
+
+
+## 🚀 Running the Program
+1. Open a terminal in the **project directory** (the folder containing `Task 1`).
+2. Run the following command:
 
    ```bash
    python "Task 1/calculator.py"
+   ```
 
-# Usage
+---
 
-1. Choose an operation by entering a number (1–4).
-2. Enter two numbers when prompted.
-3. Choose 5 to exit.
-
-# Example Session
+## 🧑‍💻 Usage
+```bash
+# Example usage of the calculator
 
 --- Simple Calculator ---
 1. Addition
@@ -44,4 +58,7 @@ A minimal command-line calculator implemented in Python.
 Enter your choice: 1
 Enter the first number: 4
 Enter the second number: 5
-Addition result: 9.0
+✅ Addition result: 9.0
+```
+
+### 🐍 Built with love using Python 💚

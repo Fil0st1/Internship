@@ -1,47 +1,26 @@
 # BBC Headlines Scraper
 
-Small script that fetches headlines from https://www.bbc.com/news and writes them to `headlines.txt`.
+A small Python script that fetches top news headlines from https://www.bbc.com/news and saves them into `headlines.txt`.
 
-Requirements
+## Requirements
 - Python 3.x
 - requests
 - beautifulsoup4
 
-Install deps:
-```sh
+## Install dependencies
+```bash
 pip install requests beautifulsoup4
 ```
 
-Usage
+# USAGE
 1. Open a terminal in the Task 3 folder.
-2. Run:
-```sh
+2. Run: 
+```bash
 python scraper.py
 ```
-3. See results in `headlines.txt`.
+3. Check the headlines.txt file for the results.
 
-Notes
-- Use responsibly and follow the site's terms of service.
-```// filepath: c:\Users\adity\Documents\internship\Task 3\README.md
+# Notes
 
-# BBC Headlines Scraper
-
-Small script that fetches headlines from https://www.bbc.com/news and writes them to `headlines.txt`.
-
-Requirements
-- Python 3.x
-- requests
-- beautifulsoup4
-
-Install deps:
-```sh
-pip install requests beautifulsoup4
-```
-
-Usage
-1. Open a terminal in the Task 3 folder.
-2. Run:
-```sh
-python scraper.py
-```
-3. See results
+- This script is for educational purposes.
+- Use responsibly and follow the website’s Terms of Service.

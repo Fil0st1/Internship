@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Home - My Portfolio{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Hello, I'm Aditya Yadav</h2>
+    <p class="subtitle">Web Developer | Python Enthusiast | Problem Solver</p>
+</section>
+
+<section class="about">
+    <h3>About Me</h3>
+    <p>I'm a passionate developer with experience in Python, Flask, and web development. 
+    I love creating elegant solutions to complex problems and building user-friendly applications.</p>
+</section>
+
+<section class="skills">
+    <h3>Skills</h3>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h4>Python</h4>
+            <p>Flask, pandas, seaborn</p>
+        </div>
+        <div class="skill-card">
+            <h4>Web Development</h4>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-card">
+            <h4>Database</h4>
+            <p>SQL, MongoDB</p>
+        </div>
+        <div class="skill-card">
+            <h4>Tools</h4>
+            <p>Git, VS Code, Docker</p>
+        </div>
+    </div>
+</section>
+
+<section class="projects">
+    <h3>Projects</h3>
+    <div class="project-card">
+        <h4>Portfolio Website</h4>
+        <p>A personal portfolio built with Flask to showcase my work and skills.</p>
+    </div>
+    <div class="project-card">
+        <h4>Terrashield</h4>
+        <p>A dashboard for mountain slope monitoring to predict landslide</p>
+    </div>
+</section>
+{% endblock %}
